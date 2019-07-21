@@ -7,18 +7,18 @@
   margin: 3px;
 }
 
-.todo-list-item-label {
+.todo-list-item {
   margin-left: 1.25rem;
   line-height: 35px;
   cursor: pointer;
   user-select: none;
 }
 
-.todo-list-item.done .todo-list-item-label {
+.todo-list-item .done {
   text-decoration: line-through;
 }
 
-.todo-list-item.important .todo-list-item-label {
+.todo-list-item.important .todo-list-item {
   font-weight: bold;
   color: steelblue;
 }
